@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background-image: url("https://images01.brasildefato.com.br/3f2baad94aad41b0f9d802457b153ee9.jpeg");
+    background-attachment: fixed;
+    
+
+
+
+}
+
+.conteiner {
+    margin: 0 110px;
+    background-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+ background: url("https://blogdasegurancaalimentar.volkdobrasil.com.br/wp-content/uploads/2022/04/volkdobrasil_volkent_image_610-1536x1024.jpeg");
+    margin-bottom: 40px;
+  background-size: cover;
+    
+background-position-y: -205px;
+    text-align: center;
+    color: #c1c1c18d;
+    border-radius: 0 0 10px 10px;
+    height: 148px;
+    backdrop-filter: blur(10px);
+}
+
+#indicator {
+    background-color: #ffd500;
+    height: .49rem;
+    position: fixed;
+    top: 0;
+
+    /* width: 85.53%; */
+    width: 0;
+    z-index: 999;
+}
+header h1{
+    color: #4173ff;
+}
+header nav ul {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #4173ff;
+    height: 40px;
+    box-shadow: 0 -2px 30px #4173ff,
+        0 2px 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #bbbbbbca;
+    font-weight: 700;
+
+}
+
+a:hover {
+    color: rgb(59, 131, 255);
+}
+
+a:active {
+    color: rgb(230, 230, 230);
+}
+
+/* a:visited{
+    color: rgb(255, 0, 0);
+} */
+main {
+    word-spacing: 3px;
+    margin: 0 80px;
+
+}
+
+main img {
+    width: 100%;
+    transform: scale(0.7);
+}
+
+main h2,
+h3 {
+    text-align: center;
+    margin: 26px 0;
+    color: #909090;
+}
+
+main span {
+    color: #372424;
+    font-weight: 900;
+}
+
+main ol li {
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+}

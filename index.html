@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decifrando rótulos de alimentos</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        const funciona = () => {
+
+
+            const indicacao = document.querySelector("#indicator");
+            const heightP = document.body.scrollHeight - window.innerHeight;
+            window.addEventListener('scroll', () => {
+                const porcer = (window.scrollY / heightP) * 100;
+                indicacao.style.width = `${porcer}%`;
+            })
+
+
+        }
+    </script>
+
+
+</head>
+
+<body onload="funciona()">
+    <div id="indicator"></div>
+    <div class="conteiner">
+
+
+
+
+        <!-- https://images01.brasildefato.com.br/3f2baad94aad41b0f9d802457b153ee9.jpeg -->
+        <!-- https://saude.abril.com.br/wp-content/uploads/2022/08/alimentacao-rotulo.png?w=680&h=449&crop=1 -->
+        <!--  -->
+        <header>
+            <h1>Decifrando rótulos de alimentos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Introdução
+
+                        </a>
+
+
+                    </li>
+                    <li><a href="#compo">Componentes do rótulo
+
+                        </a></li>
+                    <li><a href="#valores">Valores
+
+                        </a></li>
+                    <li><a href="#dicas">Dicas
+
+                        </a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+
+            <div id="introducao" class="info">
+                <p>Os rótulos dos alimentos e em especial as informações nutricionais contidas nestes, são extremamente
+                    presentes no nosso dia a dia, e ao mesmo tempo, geram muitas dúvidas e indagações para os
+                    consumidores,
+                    principalmente para leigos. Tal questão, faz com que a maioria das pessoas nem se quer se atentem
+                    para
+                    os ingredientes ou a tabela nutricional daquilo que estão ingerindo. Mas, com poucas informações, a
+                    leitura de rótulos se torna uma tarefa fácil, e saber interpretar o que exatamente estamos comendo,
+                    pode
+                    trazer inúmeros benefícios para a saúde.</p>
+                <p>A rotulagem de alimentos embalados no Brasil, tornou-se obrigatória e regulamentada dentro das normas
+                    estabelecidas pela resolução ANVISA RDC 360/03 – REGULAMENTO TÉCNICO SOBRE ROTULAGEM NUTRICIONAL DE
+                    ALIMENTOS EMBALADOS, que determina que devem ser declaradas as quantidades por porção dos seguintes
+                    componentes: valor energético, teor de carboidratos, proteínas, gorduras totais, gorduras saturadas,
+                    gorduras trans, fibras alimentares e sódio (ANVISA, UnB, 2005).</p>
+
+                <img src="" alt="">
+
+                <!--  -->
+
+
+                <img src="" alt="">
+                <p id="compo">Um primeiro ponto importante ao analisar o rótulo de um alimento, é a tabela nutricional.
+                    Esta
+                    traz a
+                    quantidade dos principais nutrientes presentes no alimento de forma significativa, sendo que os
+                    valores
+                    são normalmente informados de acordo com uma porção usual, e não toda a embalagem, assim como a
+                    porcentagem do valor diário para cada um destes (%VD), ou seja, a quantidade que representam em uma
+                    dieta média de 2.000 Kcal. Um alto %VD, indica um alto teor de um certo nutriente naquele alimento,
+                    e
+                    vice-versa. Alimentos saudáveis, de maneira geral, devem conter um baixo teor de açúcares, gorduras
+                    saturadas, gorduras trans e sódio, e um alto teor de fibras (ANVISA, UnB, 2005).</p>
+                <p>As normas estabelecem mudanças na legibilidade, no teor e na forma de declaração de informações na
+                    tabela
+                    de informação nutricional e nas condições de uso das alegações nutricionais, bem como a adoção do
+                    rótulo
+                    na parte da frente da embalagem.
+
+                    Os rótulos dos alimentos devem conter itens obrigatórios, como: lista de ingredientes, prazo de
+                    validade
+                    e informações nutricionais, assim como a medida caseira, que é como o consumidor mede os alimentos
+                    (fatias, xícaras, colheres, etc.). E, ainda, informar sobre a presença de conservantes, lactose,
+                    glúten
+                    e diversos outros itens usados na composição de alimentos enlatados e processados, especialmente
+                    importantes para pessoas com algum tipo de alergia, intolerância ou doenças como obesidade,
+                    hipertensão
+                    e diabetes. As regras também incluem o que as empresas não podem usar nos rótulos, como palavras ou
+                    informações falsas ou que induzam ao erro.</p>
+                <img src="https://saude.abril.com.br/wp-content/uploads/2022/08/alimentacao-rotulo.png?w=680&h=449&crop=1 "
+                    alt="">
+
+
+                <p>Já conhecida pelos consumidores brasileiros, a Tabela de Informação Nutricional passará por mudanças
+                    significativas. A primeira delas é que a tabela passa a ter apenas letras pretas e fundo branco. O
+                    objetivo é afastar a possibilidade de uso de contrastes que atrapalhem na legibilidade das
+                    informações.
+
+                    Outra alteração será nas informações disponibilizadas na tabela. Passará a ser obrigatória a
+                    declaração
+                    de açúcares totais e adicionados, do valor energético e de nutrientes por 100 g ou 100 ml, para
+                    ajudar
+                    na comparação de produtos, bem como o número de porções por embalagem.
+
+                </p>
+
+                <h2 id="valores">Rotulagem nutricional frontal</h2>
+
+                <p>
+
+
+                    Considerada a maior inovação das novas regras, a rotulagem nutricional frontal é um símbolo
+                    informativo
+                    que deve constar no painel da frente da embalagem. A ideia é esclarecer o consumidor, de forma clara
+                    e
+                    simples, sobre o alto conteúdo de nutrientes que têm relevância para a saúde.
+
+                    Para tal, foi desenvolvido um design de lupa para identificar o alto teor de três nutrientes:
+                    açúcares
+                    adicionados, gorduras saturadas e sódio. O símbolo deverá ser aplicado na face frontal da embalagem,
+                    na
+                    parte superior, por ser uma área facilmente capturada pelo nosso olhar.
+
+                    É obrigatória a veiculação do símbolo de lupa com indicação de um ou mais nutrientes, conforme o
+                    caso,
+                    quando os alimentos apresentarem as seguintes quantidades de nutrientes:
+                </p>
+                <p>
+                    Veja exemplos :
+                </p>
+                <img src="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/imagens-noticias/modelosdealtoteor.jpg"
+                    alt="">
+
+                <!--  -->
+
+                <h3 id="dicas">Para entender os rótulos dos alimentos e fazer compras mais saudáveis no supermercado,
+                    confira 5 dicas
+                    dicas:</h3>
+                <ol>
+                    <li><span> Repare na ordem da lista de ingredientes </span>: A descrição da lista de ingredientes
+                        sempre
+                        está em ordem decrescente, ou seja, o ingrediente que aparece primeiro está em maior quantidade
+                        no
+                        alimento. Já o último, é o menos presente.</li>
+                    <li><span>Verifique corantes e aditivos químicos</span> Corantes artificiais e outros aditivos
+                        químicos,
+                        geralmente, aparecem no final da lista porque são usados em quantidades pequenas, mas
+                        suficientes
+                        para que o alimento se afastar da categoria “natural”. Quando somados a outros alimentos
+                        consumidos
+                        no decorrer do dia, substâncias assim podem resultar em ingestão significativa de elementos
+                        indesejados.</li>
+                    <li><span> Fique de olho na porção indicada: </span> Para que a informação nutricional faça sentido,
+                        é
+                        necessário reparar na porção indicada no rótulo, pois todos os dados apresentados são referentes
+                        à
+                        quantidade específica detalhada ali. Dados obrigatórios nesse local incluem valor energético,
+                        carboidratos, proteínas, bem como gorduras totais, saturadas e trans, além de fibra alimentar e
+                        sódio.
+                        <p>Para cada nutriente a tabela apresenta a quantidade em gramas (g) ou miligramas (mg). Também
+                            é
+                            informado o percentual do valor diário (VD%), equivalente a proporção de cada item em
+                            relação a
+                            quantidade recomendada para uma dieta saudável de um adulto (2.000 kcal).</p>
+
+
+                    </li>
+
+
+                    <li><span>Compare os produtos:</span>É importante verificar a tabela nutricional de alimentos
+                        semelhantes para identificar as melhores opções, com baixos valores diários de gorduras trans,
+                        saturadas e sódio, além de altos valores diários de fibras alimentares.</li>
+                    <li><span>Confira a quantidade de calorias:</span>Alimentos calóricos são aqueles que apresentam
+                        alto
+                        índice de calorias.</li>
+                    <li><span>Preste atenção aos outros nomes dos açúcares:</span>É preciso estar atento a possíveis
+                        pegadinhas em relação ao açúcar, pois ele pode aparecer “disfarçado” em embalagens de alimentos
+                        industrializados com os nomes: xarope de glicose, xarope de milho, glicose de milho, glicose,
+                        dextrose, frutose, maltose, galactose, maltodextrina ou sacarose.</li>
+                    <li><span>Diferencie light e diet; </span>
+
+                        Para entender a diferença entre light e diet é preciso observar a quantidade de ingredientes que
+                        foram reduzidos no produto. As versões light apresentam a partir de 25% menos gordura ou outros
+                        elementos em relação à versão original do produto.
+
+
+
+
+                        <p> Já as formulações diet devem ter a suspensão total de algum ingrediente, como zero açúcar,
+                            zero
+                            sal ou zero gordura. Pessoas com diabetes, colesterol alto ou pressão alta podem utilizar
+                            estas
+                            versões dos produtos. Preste bastante atenção ao ingrediente reduzido na preparação do
+                            produto.
+                            Adicionalmente, considere que produtos light e diet, geralmente, são ultraprocessados e
+                            exigem
+                            moderação no consumo.</p>
+
+                    </li>
+                </ol>
+
+
+        </main>
+        <footer>
+            <h4>Trabalho feito por
+
+
+
+            </h4>
+            <p>Alex Fabiano L. Diaz,</p>
+            <p>Giovanna G. Nogueira e</p>
+            <p>Lucas Matias Veron Gomes</p>
+            <h5>Referencias</h5>
+<p>Referências:
+    ANVISA e UnB, AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA – ANVISA; UNIVERSIDADE DE BRASÍLIA – UnB. Rotulagem Nutricional Obrigatória: Manual de Orientação às Indústrias de Alimentos. 2. versão. Brasília: ANVISA, UnB, 2005. 44 p. <br>
+    
+    ANVISA e UnB, AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA – ANVISA; UNIVERSIDADE DE BRASÍLIA – UnB. Rotulagem Nutricional Obrigatória: Manual de Orientação aos consumidores. Brasília: ANVISA, UnB, 2005. 17 p.<br>
+    
+    ANVISA, Agência Nacional de Vigilância Sanitária (Brasil).Perguntas frequentes: Aditivos Alimentares. 2019. Disponível em: <http://portal.anvisa.gov.br/perguntas-view?p_p_id=101_INSTANCE_nySyFH9AWYKL&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_101_INSTANCE_nySyFH9AWYKL_groupId=33916&_101_INSTANCE_nySyFH9AWYKL_urlTitle=aditivos-alimentares&_101_INSTANCE_nySyFH9AWYKL_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_nySyFH9AWYKL_assetEntryId=417464&_101_INSTANCE_nySyFH9AWYKL_type=content>. Acesso em: 25 de Out de 2023. <br>
+    
+    ASBRAN, Associação Brasileira de Nutrição. Guia da OMS recomenda redução no açúcar. 2015. Disponível em: www.asbran.org.br.Acesso em: 25 de Out de 2023. .
+    
+    BRASIL. ANVISA AGêNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. .Aditivos alimentares e coadjuvantes de tecnologia. 2019. Disponível em: <http://portal.anvisa.gov.br/aditivos-alimentares-e-coadjuvantes>. Acesso em: 25 de Out de 2023.  <br>
+    
+    NUNES, Sheron Torresan; GALLON, Carin Weirich. Conhecimento e consumo dos produtos diet e light e a compreensão dos rótulos alimentares por consumidores de um supermercado do municípiode Caxias do Sul, RS-Brasil. Nutrire Rev. Soc. Bras. Aliment. Nutr, v. 38, n. 2, p. 156-171, 2013. <br>
+    
+    HONORATO, Thatyan Campos et al. Aditivos alimentares: aplicações e toxicologia. Revista Verde, v. 8, n. 5, p. 1-11, 2013.<br>/
+    
+    CARTAXO, James Linneker da Silva et al. Riscos associados aos níveis de nitritos em alimentos: uma revisão. 2015.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
